@@ -6,10 +6,10 @@ const {
 
 const bookModel = new Schema({
 
-	authour: {
+	author: {
 		type: "String"
 	},
-	book: {
+	title: {
 		type: "String"
 	},
 	genre: {
